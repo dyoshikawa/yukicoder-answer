@@ -5,3 +5,5 @@ const main = (input) => {
 };
 
 main(require("fs").readFileSync("/dev/stdin", "utf8"));
+
+// 数件テスト通らない。オーバーヘッド？
